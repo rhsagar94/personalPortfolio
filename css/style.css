@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    background: lightblue;
+}
+
+header {
+    border: none;
+    margin: none;
+    padding: 1em 2em 1em 0.5em;
+    text-align: center;
+    color: navy;
+    font-size: 5em;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10%;
+
+}
+
+.pic {
+    flex-basis: 40%;
+    border-radius: 10%;
+}
+
+/* text {
+    font-size: 20px;
+    padding-left: 20px;
+} */
