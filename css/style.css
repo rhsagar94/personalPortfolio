@@ -1,12 +1,13 @@
 * {
     box-sizing: border-box;
-    background: lightblue;
+    background: lightcyan;
+    
 }
 
 header {
     border: none;
     margin: none;
-    padding: 1em 2em 1em 0.5em;
+    padding: 1em 2em 1em 1em;
     text-align: center;
     color: navy;
     font-size: 5em;
@@ -16,12 +17,17 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 1.8em;
+    text-align: justify;
+    margin-left: 4em;
+    margin-bottom: 4em;
 }
 
 img {
-    max-width: 100%;
+    max-width: 10em;
     border-radius: 10%;
-
+    margin-right: 4em;
+    margin-left: 1em;
 }
 
 .pic {
@@ -29,7 +35,73 @@ img {
     border-radius: 10%;
 }
 
-/* text {
-    font-size: 20px;
-    padding-left: 20px;
-} */
+h2 {
+margin-left: 2.4em;
+font-size: 3em;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 4em;
+    font-size: 2em;
+}
+
+ li.nav-skills {
+    font-size: 0.7em;
+}
+
+ul.nav-skills-parent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+li.nav-work {
+    font-size: 0.7em;
+}
+
+ul.nav-work-parent {
+    display: flex;
+        flex-direction: column;
+        margin-top: 1em;
+}
+
+hr {
+    display: block;
+    color: gray;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-width: .1em;
+    margin-right: 6em;
+    margin-left: 6em;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+}
+
+p.footer-item {
+    margin-left: 4em;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    text-align: right;
+    margin-bottom: 2em;
+    margin-right: 1em;
+}
+
+.image-link {
+    max-width: 8%;
+    max-height: 8%;
+}
