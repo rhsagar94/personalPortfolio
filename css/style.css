@@ -46,6 +46,17 @@ ul {
     justify-content: space-between;
 }
 
+/* .nav-bar {
+    width: 100%;
+    height: 2em;
+    background: navy;
+}
+.nav-bar ul {
+    display: flex;
+    justify-content: center;
+    
+} */
+
 .nav-item {
     margin-left: 4em;
     margin-right: 4em;
@@ -77,7 +88,7 @@ hr {
     display: block;
     color: gray;
     margin-top: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     border-width: .1em;
     margin-right: 6em;
     margin-left: 6em;
@@ -88,17 +99,17 @@ footer {
     align-items: center;
 }
 
-p.footer-item {
-    margin-left: 4em;
-    font-size: 2em;
+ul.parent-footer {
     display: flex;
     flex-direction: column;
+    font-size: 1.4em;
+    margin-left: 4.5em;
 }
 
 .link {
     text-align: right;
     margin-bottom: 2em;
-    margin-right: 1em;
+    margin-left: 21em;
 }
 
 .image-link {
