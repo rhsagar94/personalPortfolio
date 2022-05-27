@@ -1,7 +1,9 @@
 * {
     box-sizing: border-box;
     background: lightcyan;
-    
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 header {
@@ -40,79 +42,66 @@ margin-left: 2.4em;
 font-size: 3em;
 }
 
-ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* .nav-bar {
-    width: 100%;
-    height: 2em;
-    background: navy;
-}
-.nav-bar ul {
-    display: flex;
-    justify-content: center;
-    
-} */
-
-.nav-item {
-    margin-left: 4em;
-    margin-right: 4em;
-    margin-bottom: 4em;
-    font-size: 2em;
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
- li.nav-skills {
-    font-size: 0.7em;
+.dropdown {
+    float: left;
+    overflow: hidden;
 }
 
-ul.nav-skills-parent {
-    display: flex;
-    flex-direction: column;
-    margin-top: 1em;
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: blue;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
 }
 
-li.nav-work {
-    font-size: 0.7em;
+.navbar a:hover,
+.dropdown:hover .dropbtn,
+.dropbtn:focus {
+    background-color: grey;
 }
 
-ul.nav-work-parent {
-    display: flex;
-        flex-direction: column;
-        margin-top: 1em;
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
-hr {
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
     display: block;
-    color: gray;
-    margin-top: 2em;
-    margin-bottom: 1em;
-    border-width: .1em;
-    margin-right: 6em;
-    margin-left: 6em;
+    text-align: left;
 }
 
-footer {
-    display: flex;
-    align-items: center;
+.dropdown-content a:hover {
+    background-color: #ddd;
 }
 
-ul.parent-footer {
-    display: flex;
-    flex-direction: column;
-    font-size: 1.4em;
-    margin-left: 4.5em;
-}
-
-.link {
-    text-align: right;
-    margin-bottom: 2em;
-    margin-left: 21em;
-}
-
-.image-link {
-    max-width: 8%;
-    max-height: 8%;
+.show {
+    display: block;
 }
