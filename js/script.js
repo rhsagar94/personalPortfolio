@@ -10,3 +10,4 @@ window.onclick = function (e) {
 		}
 	}
 };
+
