@@ -115,7 +115,7 @@ background-color: grey;
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: white;
 }
 
 .show {
@@ -124,4 +124,59 @@ background-color: grey;
 
 .dropdown .dropbtn {
     background-color: grey;
+}
+
+.button {
+    background: grey;
+    color: white;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 20% auto;
+    padding: 20px;
+    width: 60%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0,0,0,0.2);
+}
+
+.modal-header {
+    margin-top: 30px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.modal-header h3 {
+    font-size: 40px;
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-body {
+padding: 10px 20px;
+}
+
+.closeBtn {
+    background-color: white;
+    color: grey;
+    float: right;
+    font-size: 30px;
+}
+
+.closeBtn:hover, .closeBtn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }

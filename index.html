@@ -9,7 +9,7 @@
 		<title>Document</title>
 	</head>
 	<body>
-		<script src="js/script.js"></script>
+		<script src="js/script.js" defer></script>
 		<header>
 			<h1>Rabbi Hasan Sagar</h1>
 		</header>
@@ -32,7 +32,10 @@
 					Software Engineering Immersive program.
 				</p>
 				<div class="pic">
-					<img src="assets/Teddy-Bear-Day-640x514.jpg" alt="Picture of Rabbi Hasan Sagar" />
+					<img
+						src="assets/Teddy-Bear-Day-640x514.jpg"
+						alt="Picture of Rabbi Hasan Sagar"
+					/>
 				</div>
 			</div>
 			<nav>
@@ -48,7 +51,22 @@
 								</div>
 							</div>
 						</li>
-						<li class="menu"><a href="#">Work</a></li>
+						<li class="menu">
+							<button id="modalBtn" class="button">Work</button>
+							<div id="simpleModal" class="modal">
+								<div class="modal-content">
+									<span class="closeBtn">&times;</span>
+									<div class="modal-header">
+										
+										<h3>GA Projects</h3>
+									</div>
+									<div><p>Hello... this is a modal
+										Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae esse velit consequuntur quibusdam expedita minima pariatur, enim ipsa doloribus soluta quas eum, a rerum facere quod. Quia necessitatibus corporis cumque?
+									</p></div>
+								</div>
+							</div>
+							<a href="#"></a>
+						</li>
 						<li class="menu"><a href="#">Resume</a></li>
 						<li class="menu"><a href="#">Contact</a></li>
 					</ul>
