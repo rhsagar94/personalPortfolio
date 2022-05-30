@@ -9,7 +9,7 @@
 header {
     border: none;
     margin: none;
-    padding: 1em 2em 1em 1em;
+    padding: 1em 2em 1em 2em;
     text-align: center;
     color: navy;
     font-size: 5em;
@@ -188,4 +188,40 @@ padding: 10px 20px;
 
 .menu {
     background-color: grey;
+}
+
+
+hr {
+    display: block;
+    color: gray;
+    margin-top: 20em;
+    margin-bottom: 1em;
+    border-width: 1px;   
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+}
+
+img.logo {
+    position: absolute;
+    right: 0;
+}
+
+.footerItem p {
+    padding-left: 1em;
+}
+
+footer a {
+    
+    background-color: lightcyan;
+}
+
+.logo {
+    border-radius: 0%;
+    margin-right: 0em;
+    margin-left: 0em;
+    width: 5em;
+    length: 5em;
 }
