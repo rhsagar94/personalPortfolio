@@ -130,6 +130,10 @@ background-color: grey;
 .button {
     background: grey;
     color: white;
+    font-size: 16px;
+    border: none;
+    margin-top: 13px;
+    cursor: pointer;
 }
 
 .modal {
@@ -180,4 +184,8 @@ padding: 10px 20px;
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+.menu {
+    background-color: grey;
 }
