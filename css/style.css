@@ -9,7 +9,6 @@
 
 header {
     border: none;
-    margin: none;
     padding: 1em 2em 1em 2em;
     text-align: center;
     color: navy;
@@ -227,7 +226,6 @@ footer a {
     margin-right: 0em;
     margin-left: 0em;
     width: 5em;
-    length: 5em;
 }
 
 @media screen and (max-width: 950px) {
