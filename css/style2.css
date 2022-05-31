@@ -7,6 +7,7 @@ body {
     margin: 0;
 }
 
+/* Used reference from https: //www.youtube.com/watch?v=QT1ya4Ut40o */
 #overlay {
     width: 100%;
     height: 100%;
@@ -14,6 +15,7 @@ body {
     background-color: lightcoral ;
 }
 
+/* Used reference from https: //www.youtube.com/watch?v=QT1ya4Ut40o */
 form {
     max-width: 550px;
     width: 90%;
@@ -34,6 +36,7 @@ label {
     margin: 20px 0;
 }
 
+/* Used reference from https: //www.youtube.com/watch?v=QT1ya4Ut40o */
 input, textarea {
     width: 100%;
     padding: 10px;
@@ -44,14 +47,17 @@ input, textarea {
     border-bottom: 1px solid #D3D3D3;
 }
 
+/* Used reference from https: //www.youtube.com/watch?v=QT1ya4Ut40o */
 input[type="text"]:focus, textarea:focus {
     border-bottom: 1px solid rgb(0, 0, 0);
 }
 
+/* Used reference from https: //www.youtube.com/watch?v=QT1ya4Ut40o */
 textarea::-webkit-scrollbar {
     width: 4px;
 }
 
+/* Used reference from https: //www.youtube.com/watch?v=QT1ya4Ut40o */
 textarea::-webkit-scrollbar-thumb {
     background-color: rgb(255, 0, 106);
 }
@@ -60,6 +66,7 @@ textarea::-webkit-scrollbar-thumb {
     text-align: center;
 }
 
+/* Used reference from https: //www.youtube.com/watch?v=QT1ya4Ut40o */
 input[type="submit"] {
     margin-top: 30px;
     width: 90%;

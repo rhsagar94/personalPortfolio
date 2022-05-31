@@ -1,8 +1,10 @@
+// Used reference from https://www.youtube.com/watch?v=QT1ya4Ut40o
 const nameInput = document.querySelector('#name');
 const email = document.querySelector('#email');
 const message = document.querySelector('#message');
 const errorNodes = document.querySelectorAll('.error');
 
+// Used reference from https://www.youtube.com/watch?v=QT1ya4Ut40o
 function validateForm() {
 	clearMessages();
 	let errorFlag = false;
@@ -30,6 +32,7 @@ function validateForm() {
 	}
 }
 
+// Used reference from https://www.youtube.com/watch?v=QT1ya4Ut40o
 function clearMessages() {
 	for (let i = 0; i < errorNodes.length; i++) {
 		errorNodes[i].innerText = '';

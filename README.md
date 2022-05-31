@@ -6,6 +6,12 @@ Technology Used:
 
 I used HTML, CSS and JavaScript to build my website.
 
+For my dropdown menu design, I followed the w3schools.com website instructions.
+
+For my modal design, I followed https://www.youtube.com/watch?v=6ophW7Ask_0 link instructions.
+
+For the contact page, I followed https://www.youtube.com/watch?v=QT1ya4Ut40o link instructions.
+
 User Stories:
 
 1. As a user, I wanted my website to look clean.
