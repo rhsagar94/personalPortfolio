@@ -1,0 +1,25 @@
+// const dropBtn = document.getElementsByClassName('dropbtn');
+// const myDropdown = document.getElementsByClassName('dropdown-content');
+
+// dropBtn.addEventListener('click', dropDown);
+
+// function dropDown() {
+// 	myDropdown.classList.add('show');
+// }
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.dropdown .dropbtn {
+    background-color: black;
+}

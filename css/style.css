@@ -1,0 +1,283 @@
+* {
+    box-sizing: border-box;
+    background: lightcyan;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+header {
+    border: none;
+    margin: none;
+    padding: 1em 2em 1em 2em;
+    text-align: center;
+    color: navy;
+    font-size: 5em;
+}
+
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8em;
+    text-align: justify;
+    margin-left: 4em;
+    margin-bottom: 4em;
+}
+
+img {
+    max-width: 10em;
+    border-radius: 10%;
+    margin-right: 4em;
+    margin-left: 1em;
+}
+
+.pic {
+    flex-basis: 40%;
+    border-radius: 10%;
+}
+
+h2 {
+    margin-left: 2.4em;
+    font-size: 3em;
+}
+
+nav .navbar {
+    overflow: hidden;
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+
+}
+
+a {
+    background-color: grey;
+}
+
+.dropdown-content a {
+background-color: grey;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn,
+.dropbtn:focus {
+    background-color: grey;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: whitesmoke;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: white;
+    color: black;
+}
+
+.show {
+    display: block;
+}
+
+.dropdown .dropbtn {
+    background-color: grey;
+}
+
+.button {
+    background: grey;
+    color: white;
+    font-size: 16px;
+    border: none;
+    margin-top: 13px;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 20% auto;
+    padding: 20px;
+    width: 60%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0,0,0,0.2);
+}
+
+.modal-header {
+    margin-top: 30px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.modal-header h3 {
+    font-size: 40px;
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+}
+
+.modal p {
+    text-align: justify;
+}
+
+.closeBtn {
+    background-color: white;
+    color: grey;
+    float: right;
+    font-size: 30px;
+}
+
+.closeBtn:hover, .closeBtn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu {
+    background-color: grey;
+}
+
+
+hr {
+    display: block;
+    color: gray;
+    margin-top: 20em;
+    margin-bottom: 1em;
+    border-width: 1px;   
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+}
+
+img.logo {
+    position: absolute;
+    right: 0;
+}
+
+.footerItem p {
+    padding-left: 1em;
+}
+
+footer a {
+    
+    background-color: lightcyan;
+}
+
+.logo {
+    border-radius: 0%;
+    margin-right: 0em;
+    margin-left: 0em;
+    width: 5em;
+    length: 5em;
+}
+
+@media screen and (max-width: 950px) {
+    header {
+        font-size: 2em;
+    }
+     h2 {
+         font-size: 1.5em;
+         display: flex;
+         justify-content: center;
+         margin-left: 0em;
+         margin-bottom: 1em;
+     }
+
+     .container {
+         display: flex;
+         flex-direction: column;
+         font-size: 1em;
+         margin-left: 2em;
+         margin-right: 2em;
+         justify-content: center;
+     }
+
+     .text {
+         margin-bottom: 1em;
+     }
+
+     div .pic {
+         margin-left: 3em;
+     }
+
+    .modal-header h3 {
+        font-size: 2em;
+    }
+
+    .modal p {
+        font-size: 1em;
+        text-align: justify;
+    }
+
+    hr {
+        margin-top: 15em;
+    }
+
+    .footerItem p {
+            font-size: .8em;
+        }
+
+    .logo {
+            width: 3.5em;
+        }
+
+}
